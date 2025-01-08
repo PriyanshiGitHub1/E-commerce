@@ -18,7 +18,3 @@ navLinks.addEventListener("click", (e) => {
 navSearch.addEventListener("click", (e) => {
     navSearch.classList.toggle("open");
 });
-
-const swiper = new Swiper(".swiper", {
-    loop: true,
-  });
