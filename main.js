@@ -1,7 +1,6 @@
 const menuBtn = document.getElementById('menu-btn');
 const navLinks = document.getElementById('nav-links');
 const menuBtnIcon = menuBtn.querySelector('i');
-const navSearch = document.getElementById('nav-search');
 
 
 menuBtn.addEventListener("click", (e) => {
@@ -13,8 +12,4 @@ menuBtn.addEventListener("click", (e) => {
 navLinks.addEventListener("click", (e) => {
     navLinks.classList.remove("open");
     menuBtnIcon.setAttribute("class", 'ri-menu-line');
-});
-
-navSearch.addEventListener("click", (e) => {
-    navSearch.classList.toggle("open");
 });
